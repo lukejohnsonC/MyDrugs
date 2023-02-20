@@ -1,4 +1,12 @@
 body {
-  background: #0B1114;
+  background: #0E0E0E;
   font-family: 'gothland', sans-serif;
+}
+a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.fontThin {
+  font-weight: 100;
 }

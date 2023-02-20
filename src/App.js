@@ -1,13 +1,13 @@
 import './App.css';
 import Header from './components/header';
-import Carrossel from './components/carrossel';
+import Carousel from './components/carousel';
 import Shop from './components/shop';
 
 function App() {
   return (    
     <div className="App">
       <Header/>
-      <Carrossel/>
+      <Carousel/>
       <Shop/>
     </div>
   );

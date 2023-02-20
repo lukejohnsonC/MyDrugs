@@ -1,0 +1,129 @@
+.slick-slider {
+  position: absolute;
+  top: 0;
+  width: 100VW;
+  height: calc( 100% - 3VH);
+  color: white;
+}
+
+/* Arrows */
+.slick-arrow {
+  z-index: 999;
+}
+.slick-prev, .slick-next {
+  transform: scaleY(3);
+}
+.slick-next {
+  right: 25px;
+}
+.slick-next:before {
+  content: ">";
+}
+
+.slick-prev {
+  left: 25px;
+}
+.slick-prev:before {
+  content: "<";
+}
+
+/* GENERAL SETTINGS AND POSITIONS */
+.posSlide {
+  margin-top: 174px;
+}
+.posContent {
+  width: 80%;
+  height: 65vh;
+  display: block;
+  margin: auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+}
+.posSlide > div h1 {
+  font-size: 40px;
+}
+.posSlide > div span {
+  font-size: 20px;
+}
+span {
+  text-transform: uppercase;
+}
+.contentWrapper {
+  display: inline-flex !important;
+  height: 100vh;
+}
+
+/* FIRST SLIDE */
+.manyPill {
+  background-image: url('../imgs/firstcarousel.png');
+}
+#carousel > div a:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: right;
+}
+#carousel > div a:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#carousel > div a:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: right;
+}
+#carousel > div a:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* SECOND SLIDE */
+#blueBack {
+  background: #00B4FF;
+}
+.bluePill {
+  background-image: url('../imgs/bluePill.png');
+}
+
+.posContent > span:nth-child(1) {
+  position: absolute;
+  top: 130px;
+  left: 100px;
+  text-align: right;
+}
+
+.posContent > span:nth-child(2) {
+  position: absolute;
+  bottom: 130px;
+  right: 0px;
+  width: 370px;
+}
+
+/* THIRD SLIDE */
+#greenBack {
+  background: #97FE01;
+}
+.greenPill {
+  background-image: url('../imgs/greenPill.png');
+}
+
+/* FOURTH SLIDE */
+#purpleBack {
+  background: #C300FF;
+}
+.purplePill {
+  background-image: url('../imgs/purplePill.png');
+}
+
+/* FIFTH SLIDE */
+#redBack {
+  background: #FF3535;
+}
+.redPill {
+  background-image: url('../imgs/redPill.png');
+}
